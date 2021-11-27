@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,700;1,800&family=Poppins:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
+
+    <title>Hez-Campus Courses</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <section class="AboutHeaderSection">
+        <nav>
+            <a href="./index.html" ><img class="homeIcon" src="./images/mortarboard.png" ></a>
+            <div class="navLinks" id="navLinksToggle">
+                <i class="fa fa-times" onclick="hideDrawer()" ></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./courses.html">COURSES</a></li>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showDrawer()"></i>
+        </nav>
+       <h1>Courses</h1>
+       <p>We offer the most diverse courses in the world.<br>Each student will be able to find and enroll in his dream course to enable him to pursue his career</p>
+
+    </section>
+    <section class="schoolSection">
+        <div class="schoolRow">
+            <h2>Colledge of Health Sciences(COHES)</h2>
+            <p>School of Nursing</p>
+            <p>School of Medicine</p>
+            <p>School of Pharmacy</p>
+            <p>School of Public Health</p>
+            <p>School of Biomedical Sciences</p>
+        </div>
+        <div class="schoolRow">
+            <h2>Colledge of Engineering and Technology(COETEC)</h2>
+            <p>School of Architecture and Building Sciences</p>
+            <p>School of Mechanical, Manufacturing and Materia Engineering</p>
+            <p>School of Electrical, Electronics and Information Engineering</p>
+            <p>School of Civil, Environmental and Geospation Engineering </p>
+          
+        </div>
+        <div class="schoolRow">
+            <h2>Colledge of Pure and Applied Sciences(COPAS)</h2>
+            <p>School of Physical Sciences</p>
+            <p>School of Biological Sciences</p>
+            <p>School of Mathematical Sciences</p>
+            <p>School of Computing and Information technology </p>
+          
+        </div>
+        <div class="schoolRow">
+            <h2>Colledge of Agriculture and Natural Resources(COANRE)</h2>
+            <p>School of Agriculture and Environmental Sciences</p>
+            <p>School of Food and Nutritional Sciences</p>
+            <p>School of Natural Resources and Animal research</p>
+          
+        </div>
+        <div class="schoolRow">
+            <h2>Colledge of Human Resources and Development(COANRE)</h2>
+            <p>School of Business</p>
+            <p>School of Enterprenuarship, Procurement and Management</p>
+            <p>School of Communication and Development Studies</p>
+          
+        </div>
+      
+        
+
+    </section>
+    <footer>
+        <p>You can find us in our various social media handles</p>
+        <div class="handles">
+            <img src="./images/facebook (4).png" >
+            <img src="./images/instagram (3).png" >
+            <img src="./images/twitter (2).png" >
+            <img src="./images/linkedin.png" >
+            <img src="./images/tiktok.png" >
+        </div>
+        <div class="cntcts">
+            <p>+001756888986  <img src="./images/whatsapp.png"></p>
+            <p>Email: hezworldcampus@gmail.com  <img src="./images/gmail.png" ></p>
+        </div>
+    </footer>
+    
+</body>
+</html>
+<script>
+       var navlinks=document.getElementById("navLinksToggle");
+    
+    const showDrawer=()=>{
+        navlinks.style.right="0";
+       
+    }
+    const hideDrawer=()=>{
+        navlinks.style.right="-200px";
+    
+    }
+</script>
